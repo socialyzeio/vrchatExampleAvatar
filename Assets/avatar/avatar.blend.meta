@@ -106,7 +106,9 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'legUpperL' : position error =
+      41.599400 mm\n\t'legUppeR' : position error = 41.599213 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -306,14 +308,6 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: upperChest
-      humanName: UpperChest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
     skeleton:
     - name: avatar(Clone)
       parentName: 
@@ -370,63 +364,61 @@ ModelImporter:
       position: {x: -0.47653967, y: 0.000000027903955, z: 0.0000000790972}
       rotation: {x: 0.028196827, y: 0.14615378, z: 0.004167554, w: 0.9888512}
       scale: {x: 1, y: 0.9999999, z: 1}
-    - name: upperChest
+    - name: neck
       parentName: chest
       position: {x: -0.49606222, y: 0.00000003745168, z: 0.00000010430813}
-      rotation: {x: 0.008382611, y: 0.10036715, z: -0.0008455606, w: 0.9949148}
-      scale: {x: 1.0000001, y: 1, z: 1}
-    - name: neck
-      parentName: upperChest
-      position: {x: -0.38973907, y: 0.000000030450387, z: 0.000000029807097}
-      rotation: {x: -0.008867017, y: -0.10699176, z: 0.00084881706, w: 0.99422}
+      rotation: {x: 0.066497035, y: 0.060329795, z: -0.004027931, w: 0.99595296}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: head_0
       parentName: neck
-      position: {x: -0.23279847, y: 0.000000017324389, z: -0.00000006712437}
-      rotation: {x: 0.0004928213, y: -0.038223814, z: -0.00001900149, w: 0.99926907}
-      scale: {x: 1, y: 1, z: 1}
+      position: {x: -0.61919117, y: 0.000000031388943, z: 0.000000039083446}
+      rotation: {x: -0.066249125, y: -0.104965754, z: 0.0070082047, w: 0.992242}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
     - name: shoulderL
-      parentName: upperChest
-      position: {x: -0.11021484, y: -0.60048103, z: -0.023484249}
-      rotation: {x: -0.10836565, y: -0.096576646, z: 0.7004805, w: 0.69875383}
-      scale: {x: 1, y: 1.0000001, z: 1}
+      parentName: chest
+      position: {x: -0.61076677, y: -0.6, z: -0.010908929}
+      rotation: {x: -0.031733654, y: -0.031733852, z: 0.7063944, w: 0.7063943}
+      scale: {x: 1, y: 1, z: 1}
     - name: upperArmL
       parentName: shoulderL
-      position: {x: -0.4000001, y: 0.00000007311417, z: 0.00000008270143}
-      rotation: {x: -0.000000029802322, y: -0.000000001862642, z: 0.000000005820773,
-        w: 1}
+      position: {x: -0.4, y: 0.000000040219636, z: 0.00000011813022}
+      rotation: {x: -0.000000011175871, y: 1.9270861e-11, z: 7.485248e-10, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: lowerArmL
       parentName: upperArmL
-      position: {x: -0.5000002, y: 0.00000011324686, z: 0.00000013709068}
-      rotation: {x: 7.10349e-15, y: -1.134464e-16, z: 7.10349e-15, w: 1}
+      position: {x: -0.5000002, y: 0.000000053642214, z: 0.00000013709067}
+      rotation: {x: 0, y: -0, z: -0.000000029802317, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: handL
       parentName: lowerArmL
-      position: {x: -0.5000001, y: 0.00000009139116, z: 0.00000013709068}
-      rotation: {x: -1.2802268e-10, y: -0.0000000030823948, z: -0.02588481, w: 0.99966496}
+      position: {x: -0.50000006, y: 0.00000003178652, z: 0.00000013709067}
+      rotation: {x: -1.6474885e-10, y: -0.0000000030814433, z: -0.025884775, w: 0.99966496}
       scale: {x: 1, y: 1, z: 1}
     - name: shoulderR
-      parentName: upperChest
-      position: {x: -0.11021476, y: 0.5993488, z: -0.043703567}
-      rotation: {x: 0.096576646, y: -0.10836565, z: -0.69875383, w: 0.7004805}
-      scale: {x: 1, y: 1.0000001, z: 1}
+      parentName: chest
+      position: {x: -0.6107668, y: 0.60000014, z: -0.010908592}
+      rotation: {x: 0.031733852, y: -0.031733654, z: -0.7063943, w: 0.7063944}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: armUpperR
       parentName: shoulderR
-      position: {x: -0.4000001, y: -0.000000064610724, z: 0.000000090152014}
-      rotation: {x: 0.000000029802322, y: 0.000000001862642, z: 0.000000005820773,
-        w: 1}
+      position: {x: -0.40000007, y: -0.00000006242404, z: 0.00000000517683}
+      rotation: {x: 0.000000007450581, y: -1.9270576e-11, z: 7.485248e-10, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: lowerArmR
       parentName: armUpperR
-      position: {x: -0.5000001, y: -0.000000005962438, z: 0.00000013709068}
-      rotation: {x: -7.10349e-15, y: 1.134464e-16, z: 7.10349e-15, w: 1}
+      position: {x: -0.5000002, y: -0.00000000596243, z: 0.000000017881355}
+      rotation: {x: 0, y: 0, z: 3.551745e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: handR
       parentName: lowerArmR
-      position: {x: -0.5000001, y: -0.000000027818132, z: 0.00000013709068}
-      rotation: {x: -7.10349e-15, y: -5.0459572e-29, z: 7.10349e-15, w: 1}
+      position: {x: -0.5000002, y: -0.000000027818118, z: 0.000000017881355}
+      rotation: {x: 0, y: 0, z: 3.551745e-15, w: 1}
       scale: {x: 1, y: 1, z: 1}
+    - name: upperChest
+      parentName: chest
+      position: {x: -0.49606222, y: 0.00000003745168, z: 0.00000010430813}
+      rotation: {x: 0.007726861, y: 0.39860168, z: -0.0033582384, w: 0.91708547}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
     - name: armL
       parentName: avatar(Clone)
       position: {x: 0.03, y: -1.5, z: 2.75}
