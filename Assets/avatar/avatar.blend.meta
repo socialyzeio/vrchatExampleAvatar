@@ -34,6 +34,21 @@ ModelImporter:
     100056: spine
     100058: upperArmL
     100060: upperChest
+    100062: backText
+    100064: base_001
+    100066: base_002
+    100068: eyeL
+    100070: eyeR
+    100072: frontText
+    100074: mouth
+    100076: pupil
+    100078: pupil_001
+    100080: surrounding
+    100082: surrounding_001
+    100084: surrounding_002
+    100086: Text
+    100088: textBottom
+    100090: textTop
     400000: //RootNode
     400002: Body
     400004: body
@@ -65,7 +80,26 @@ ModelImporter:
     400056: spine
     400058: upperArmL
     400060: upperChest
+    400062: backText
+    400064: base_001
+    400066: base_002
+    400068: eyeL
+    400070: eyeR
+    400072: frontText
+    400074: mouth
+    400076: pupil
+    400078: pupil_001
+    400080: surrounding
+    400082: surrounding_001
+    400084: surrounding_002
+    400086: Text
+    400088: textBottom
+    400090: textTop
     2100000: unnamed
+    2100002: Skin
+    2100004: Black
+    2100006: White
+    2100008: Material_003
     2300000: Body
     2300002: body
     2300004: legR
@@ -74,6 +108,17 @@ ModelImporter:
     2300010: armR
     2300012: legL
     2300014: head
+    2300016: base
+    2300018: base_001
+    2300020: base_002
+    2300022: pupil
+    2300024: pupil_001
+    2300026: surrounding
+    2300028: surrounding_001
+    2300030: surrounding_002
+    2300032: Text
+    2300034: textBottom
+    2300036: textTop
     3300000: Body
     3300002: body
     3300004: legR
@@ -82,6 +127,17 @@ ModelImporter:
     3300010: armR
     3300012: legL
     3300014: head
+    3300016: base
+    3300018: base_001
+    3300020: base_002
+    3300022: pupil
+    3300024: pupil_001
+    3300026: surrounding
+    3300028: surrounding_001
+    3300030: surrounding_002
+    3300032: Text
+    3300034: textBottom
+    3300036: textTop
     4300000: Body
     4300002: legR_001
     4300004: legR
@@ -90,6 +146,17 @@ ModelImporter:
     4300010: armL
     4300012: legL
     4300014: head
+    4300016: textBottom
+    4300018: textTop
+    4300020: Text
+    4300022: surrounding
+    4300024: base
+    4300026: base_001
+    4300028: surrounding_001
+    4300030: pupil_001
+    4300032: pupil
+    4300034: surrounding_002
+    4300036: base_002
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
