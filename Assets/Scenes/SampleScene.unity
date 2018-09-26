@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 1
   completedSDKPipeline: 0
-  blueprintId: avtr_af6da170-1021-4fa1-97d2-bc38b95c1e41
+  blueprintId: avtr_81943e86-45f8-41b2-9ff6-529b4a11c701
   contentType: 0
   assetBundleUnityVersion: 
 --- !u!114 &1640007086
