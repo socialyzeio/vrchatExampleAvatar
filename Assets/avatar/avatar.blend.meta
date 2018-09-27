@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: dc8535649dbbb834b87d5a47084f92b1
-timeCreated: 1537988502
+timeCreated: 1538066048
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -55,6 +55,7 @@ ModelImporter:
     100094: hip
     100096: hips
     100098: avatar
+    100100: Empty
     400000: //RootNode
     400002: Body
     400004: body
@@ -105,6 +106,7 @@ ModelImporter:
     400094: hip
     400096: hips
     400098: avatar
+    400100: Empty
     2100000: unnamed
     2100002: Skin
     2100004: Black
@@ -389,9 +391,14 @@ ModelImporter:
       position: {x: -0, y: -0.0016006232, z: -0.002146721}
       rotation: {x: 0.7071068, y: -0.7071067, z: -0.00000007870265, w: 0.00000010961128}
       scale: {x: 0.5, y: 0.5, z: 0.5}
+    - name: Empty
+      parentName: Armature
+      position: {x: -1.2e-14, y: 0.000000059604645, z: 3.1e-14}
+      rotation: {x: 0.5000002, y: -0.49999985, z: -0.5000001, w: 0.4999999}
+      scale: {x: 2, y: 2, z: 2}
     - name: hip
       parentName: Armature
-      position: {x: 1.068, y: -0.007, z: 0.065}
+      position: {x: -1.65, y: -0.01, z: 0.06}
       rotation: {x: 0.9706859, y: 0.00000005960465, z: -0.24035165, w: -0.00000006705523}
       scale: {x: 1, y: 1, z: 1}
     - name: legUppeR
