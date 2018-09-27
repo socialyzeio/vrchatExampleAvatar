@@ -365,9 +365,9 @@ MonoBehaviour:
   m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchedFromSDKPipeline: 1
+  launchedFromSDKPipeline: 0
   completedSDKPipeline: 0
-  blueprintId: avtr_81943e86-45f8-41b2-9ff6-529b4a11c701
+  blueprintId: 
   contentType: 0
   assetBundleUnityVersion: 
 --- !u!114 &1640007086
@@ -393,15 +393,3 @@ MonoBehaviour:
   MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
   VisemeBlendShapes: []
   unityVersion: 5.6.3p1
---- !u!114 &1640007087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1640007084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
