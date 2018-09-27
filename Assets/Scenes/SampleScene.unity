@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -239,13 +239,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.05, y: 3.083, z: 0}
+  m_LocalRotation: {x: 0.002430882, y: 0.6334452, z: -0.0019900077, w: 0.77378124}
+  m_LocalPosition: {x: -3.69, y: 1.43, z: -2.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.36, y: 78.61, z: 0}
 --- !u!1001 &1125510476
 Prefab:
   m_ObjectHideFlags: 0
@@ -341,8 +341,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: dc8535649dbbb834b87d5a47084f92b1, type: 3}
       propertyPath: m_ApplyRootMotion
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: dc8535649dbbb834b87d5a47084f92b1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: dbd24704686facc41b725f017c845bf9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc8535649dbbb834b87d5a47084f92b1, type: 3}
   m_IsPrefabParent: 0
@@ -389,7 +393,7 @@ MonoBehaviour:
   MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
   VisemeBlendShapes: []
   unityVersion: 5.6.3p1
---- !u!114 &1640007087
+--- !u!114 &1640007089
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}

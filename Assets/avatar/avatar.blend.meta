@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: dc8535649dbbb834b87d5a47084f92b1
-timeCreated: 1537983973
+timeCreated: 1537988502
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -54,6 +54,7 @@ ModelImporter:
     100092: Hips
     100094: hip
     100096: hips
+    100098: avatar
     400000: //RootNode
     400002: Body
     400004: body
@@ -103,6 +104,7 @@ ModelImporter:
     400092: Hips
     400094: hip
     400096: hips
+    400098: avatar
     2100000: unnamed
     2100002: Skin
     2100004: Black
