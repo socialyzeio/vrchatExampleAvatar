@@ -169,6 +169,12 @@ ModelImporter:
     4300036: base_002
     7400000: Default Take
     9500000: //RootNode
+    13700000: armL
+    13700002: armR
+    13700004: body
+    13700006: head
+    13700008: legL
+    13700010: legR
     2186277476908879412: ImportLogs
   materials:
     importMaterials: 1
